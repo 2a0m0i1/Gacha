@@ -22,16 +22,16 @@ class ResultViewController: UIViewController {
         number = Int.random(in: 0...9)
         if number == 9{
             //激レアモンスター
-            monsterImageView.image = UIImage(named: "monster010")
-            backgroundImageView.image = UIImage(named: "bg_gold")
-        } else if number > 7 {
+            monsterImageView.image = UIImage(named: "kris.png")
+            backgroundImageView.image = UIImage(named: "money.JPG")
+        } else if number > 6 {
             //レアモンスター
-            monsterImageView.image = UIImage(named: "monster006")
-            backgroundImageView.image = UIImage(named: "bg_red")
+            monsterImageView.image = UIImage(named: "kendall.png")
+            backgroundImageView.image = UIImage(named: "tequila.JPG")
         } else {
             //ノーマルモンスター
-            monsterImageView.image = UIImage (named: "monster003")
-            backgroundImageView.image = UIImage (named: "bg_blue")
+            monsterImageView.image = UIImage (named: "kylie.png")
+            backgroundImageView.image = UIImage (named: "makeup.JPG")
         }
     }
     

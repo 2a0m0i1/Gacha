@@ -30,6 +30,12 @@
 		E0E39C49264D83FF000D776F /* monster009.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E39C3B264D83FF000D776F /* monster009.png */; };
 		E0E39C4A264D83FF000D776F /* monster008.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E39C3C264D83FF000D776F /* monster008.png */; };
 		E0E39C4C264D8716000D776F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E39C4B264D8716000D776F /* ResultViewController.swift */; };
+		E0E39C54264D96BF000D776F /* tequila.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E0E39C4E264D96BF000D776F /* tequila.JPG */; };
+		E0E39C55264D96BF000D776F /* makeup.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E0E39C4F264D96BF000D776F /* makeup.JPG */; };
+		E0E39C57264D96BF000D776F /* money.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E0E39C51264D96BF000D776F /* money.JPG */; };
+		E0E39C63264D9C80000D776F /* kylie.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E39C60264D9C80000D776F /* kylie.png */; };
+		E0E39C64264D9C80000D776F /* kendall.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E39C61264D9C80000D776F /* kendall.png */; };
+		E0E39C65264D9C80000D776F /* kris.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E39C62264D9C80000D776F /* kris.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +85,12 @@
 		E0E39C3B264D83FF000D776F /* monster009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster009.png; sourceTree = "<group>"; };
 		E0E39C3C264D83FF000D776F /* monster008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster008.png; sourceTree = "<group>"; };
 		E0E39C4B264D8716000D776F /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		E0E39C4E264D96BF000D776F /* tequila.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tequila.JPG; sourceTree = "<group>"; };
+		E0E39C4F264D96BF000D776F /* makeup.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = makeup.JPG; sourceTree = "<group>"; };
+		E0E39C51264D96BF000D776F /* money.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = money.JPG; sourceTree = "<group>"; };
+		E0E39C60264D9C80000D776F /* kylie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kylie.png; path = ../../../../../../../../../../.Trash/kylie.png; sourceTree = "<group>"; };
+		E0E39C61264D9C80000D776F /* kendall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kendall.png; path = ../../../../../../../../../../.Trash/kendall.png; sourceTree = "<group>"; };
+		E0E39C62264D9C80000D776F /* kris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kris.png; path = ../../../../../../../../../../.Trash/kris.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +175,7 @@
 		E0E39C2C264D83FF000D776F /* GachaResources */ = {
 			isa = PBXGroup;
 			children = (
+				E0E39C4D264D96BF000D776F /* jenner */,
 				E0E39C2D264D83FF000D776F /* background */,
 				E0E39C32264D83FF000D776F /* monster */,
 			);
@@ -196,6 +209,20 @@
 			);
 			path = monster;
 			sourceTree = "<group>";
+		};
+		E0E39C4D264D96BF000D776F /* jenner */ = {
+			isa = PBXGroup;
+			children = (
+				E0E39C61264D9C80000D776F /* kendall.png */,
+				E0E39C62264D9C80000D776F /* kris.png */,
+				E0E39C60264D9C80000D776F /* kylie.png */,
+				E0E39C4E264D96BF000D776F /* tequila.JPG */,
+				E0E39C4F264D96BF000D776F /* makeup.JPG */,
+				E0E39C51264D96BF000D776F /* money.JPG */,
+			);
+			name = jenner;
+			path = Gacha/GachaResources/jenner;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -301,9 +328,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0E39C40264D83FF000D776F /* bg_red@2x.png in Resources */,
+				E0E39C54264D96BF000D776F /* tequila.JPG in Resources */,
 				E0E39C09264D8372000D776F /* LaunchScreen.storyboard in Resources */,
+				E0E39C63264D9C80000D776F /* kylie.png in Resources */,
 				E0E39C49264D83FF000D776F /* monster009.png in Resources */,
 				E0E39C3E264D83FF000D776F /* bg_gold@2x.png in Resources */,
+				E0E39C57264D96BF000D776F /* money.JPG in Resources */,
+				E0E39C65264D9C80000D776F /* kris.png in Resources */,
 				E0E39C46264D83FF000D776F /* monster003.png in Resources */,
 				E0E39C48264D83FF000D776F /* monster001.png in Resources */,
 				E0E39C4A264D83FF000D776F /* monster008.png in Resources */,
@@ -313,6 +344,8 @@
 				E0E39C47264D83FF000D776F /* monster002.png in Resources */,
 				E0E39C04264D8370000D776F /* Main.storyboard in Resources */,
 				E0E39C42264D83FF000D776F /* monster010.png in Resources */,
+				E0E39C55264D96BF000D776F /* makeup.JPG in Resources */,
+				E0E39C64264D9C80000D776F /* kendall.png in Resources */,
 				E0E39C44264D83FF000D776F /* monster006.png in Resources */,
 				E0E39C41264D83FF000D776F /* monster005.png in Resources */,
 				E0E39C3D264D83FF000D776F /* bg_blue@2x.png in Resources */,
